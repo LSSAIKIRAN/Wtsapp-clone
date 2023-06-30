@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EAEA"
+    android:gravity="center"
+    tools:context=".Activities.signIn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginHorizontal="@dimen/_15mdp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="@dimen/_100mdp"
+                    android:layout_height="@dimen/_100mdp"
+                    app:srcCompat="@drawable/wtsapp"
+                    android:layout_marginBottom="@dimen/_15mdp"/>
+
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:hint="Enter your email"
+                    android:gravity="center"
+                    android:padding="@dimen/_10mdp"
+                    android:layout_marginTop="@dimen/_10mdp"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/_10mdp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:padding="@dimen/_10mdp"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    android:id="@+id/tvSignUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="signUp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15mdp"
+                    android:layout_gravity="end"
+                    android:padding="@dimen/_10mdp"
+                    />
+
+                <Button
+                    android:id="@+id/btnsignIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10mdp"
+                    android:text="SignIn"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#0A5C0D"
+                    android:textSize="@dimen/_13mdp"
+                    app:cornerRadius="@dimen/_6mdp"
+                    android:padding="@dimen/_8mdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="or"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14font_mdp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_7mdp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/btnGoogle1"
+                        android:layout_width="@dimen/_40mdp"
+                        android:layout_height="@dimen/_40mdp"
+                        android:layout_marginEnd="@dimen/_10mdp"
+                        android:src="@drawable/google" />
+
+                    <ImageView
+                        android:id="@+id/btn_fb"
+                        android:layout_width="@dimen/_40mdp"
+                        android:layout_height="@dimen/_40mdp"
+                        android:layout_marginStart="@dimen/_10mdp"
+                        android:src="@drawable/facebook" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138716358963",
+    "project_id": "wtsapp-5b931",
+    "storage_bucket": "wtsapp-5b931.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138716358963:android:b91220120f49fcdc1a7646",
+        "android_client_info": {
+          "package_name": "com.kiran.wtsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138716358963-aelqh5n02bnvs8fovv6egtuolt3p6u0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvA1kZ4w6Z0jboE_FetonLV1KdIcrjzR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138716358963-aelqh5n02bnvs8fovv6egtuolt3p6u0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
